@@ -14,3 +14,7 @@ fi
 # Setting PATH for Python 3.7
 # PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 # export PATH
+
+# Silence the zsh default terminal warning
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
