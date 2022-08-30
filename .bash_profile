@@ -18,3 +18,13 @@ fi
 # Silence the zsh default terminal warning
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
+
+# Setting PATH for Python 3.10
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:${PATH}"
+export PATH
+PATH="/usr/local/bin:$PATH"
+export PATH
+PATH="/opt/homebrew/bin:$PATH"
+export PATH
+
